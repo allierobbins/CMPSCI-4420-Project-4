@@ -1,0 +1,62 @@
+This is the README file for Allie Robbins' Digital Image Assignment 4
+
+All files were written in C++, referencing OpenCV 3.4.1.
+
+List of Files included in program:
+  - program1
+  - program2
+  - program3
+  - program4
+  - program5
+  - program6
+  - makefile
+  - README
+  - structuringElement.txt
+
+To execute the program:
+    Run command "make" to build/compile the programs.
+
+To run a program:
+    program 1 → run command "./add_rm_noise imageFile n"
+        - imageFile is the input image
+        - n is the percentage of bits to flip
+
+    program 2 → run command "./zoom -z # -R # -C # -H # -W # imageFile outputFile"
+        - z is the zoom factor
+        - R is the center X value
+        - C is the center Y value
+        - H is the height of the input image
+        - W is the width of the input image
+        - imageFile is the input image
+        - outputFile is the name of the output file
+
+    program 3 → run command "./sm_filter imageFile"
+        - imageFile is the input image
+
+    program 4 → run command "./blur imageFile # #"
+        - imageFile is the input image
+        - the two # values are the size and resolution
+
+    program 5 → run command "./program5 imageFile"
+        - imageFile is the input image
+
+    program 6 → run command "./program6 imageFile"
+        - imageFile is the input image
+
+To clean the object files:
+    Run command "make clean".
+
+Purpose of the assignment / program(s):
+    The purpose of this assignment is perform image enhancements in Spatial Domain.
+
+    Program 1 adds Gaussian noise into an image.
+
+    Program 2 allows users to zoom into a selected area of an image w/ a specified zoom factor.
+
+    Program 3 applies a smoothing spatial filter with standard averaging to an image.
+
+    Program 4 applies a circular kernel of specified size and resolution to blur an image.
+
+    Program 5 blurs the borders of an image by making them pastel.
+
+    Program 6 implements the morphological operators erosion and dilation to a binary image.
